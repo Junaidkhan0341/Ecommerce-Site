@@ -38,6 +38,17 @@
 
     </div>
 
+    <div id="navbar" class="navbar navbar-default">
+
+    <div class="container">
+        <div class="navbar-header">
+            <a href="index.php" class="navbar-brand home">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+    </div>
+    </div>
+
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
