@@ -43,9 +43,20 @@
     <div class="container">
         <div class="navbar-header">
             <a href="index.php" class="navbar-brand home">
-                <img src="images/logo.png" alt="Logo">
+                <img src="images/logo.png" alt="Logo"/>
             </a>
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                <span class="sr-only">Toggle Navigation</span>
+                <i class="fa fa-align-justify"></i>
+            </button>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                <span class="sr-only">Toggle Search</span>
+                <i class="fa fa-search"></i>
+            </button>
         </div>
+
+
     </div>
     </div>
 
