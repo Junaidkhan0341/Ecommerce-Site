@@ -79,3 +79,36 @@ body {
 .home img {
     width: 40px;
 }
+
+/* Header Style */
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-collapse .right {
+    float: right;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar ul.nav > li > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar ul.nav > li > a:hover {
+    color: #e7e7e7;
+}
+

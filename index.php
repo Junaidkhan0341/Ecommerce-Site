@@ -56,6 +56,50 @@
             </button>
         </div>
 
+        <div class="navbar-collapse collapse" id="navigation">
+            <div class="padding-nav">
+                <ul class="nav navbar-nav left">
+                    <li class="active">
+                        <a href="index.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="shop.php">Shop</a>
+                    </li>
+                    <li>
+                        <a href="checkout.php">My Account</a>
+                    </li>
+                    <li>
+                        <a href="cart.php">Shopping Cart</a>
+                    </li>
+                    <li>
+                        <a href="contact.php">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="cart.php" class="btn navbar-btn btn-primary right">
+                <i class="fa fa-shopping-cart"></i>
+                <span>4 Items In Your Cart</span>
+            </a>
+            <div class="navbar-collapse collapse right">
+                <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search">
+                    <span class="sr-only">Toggle Search</span>
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <div class="collapse clearfix" id="search">
+                <form method="get" action="results.php" class="navbar-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="user_query" required>
+                        <button type="submit" name="search" value="Search" class="btn btn-primary">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
 
     </div>
     </div>
