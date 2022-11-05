@@ -136,3 +136,8 @@ body {
     width: 100%;
 }
 
+.carousel-control {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
